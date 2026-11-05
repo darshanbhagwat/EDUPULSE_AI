@@ -1,22 +1,24 @@
-
 # 🎓 EduPulse AI
+### Student Performance & Learning Analytics
 
-### AI-Powered Student Performance & Learning Analytics
+EduPulse AI is a Machine Learning-based educational analytics prototype designed to explore student learning patterns and estimate academic performance.
 
-EduPulse AI is a Python-based Data Science application that analyses student academic information and generates estimated performance predictions using Machine Learning.
+It provides an interactive dashboard for individual predictions, batch CSV predictions, learning recommendations, and academic data visualization.
+
+> **Note:** This prototype currently uses simulated student data. Its predictions are experimental estimates and are not validated for real-world academic decisions.
 
 ## 🚀 Features
 
-- Student performance prediction
+- Individual student performance estimation
 - Random Forest Regression model
-- CSV dataset upload
-- Batch student predictions
-- Interactive analytics dashboard
-- Personalized learning recommendations
-- Downloadable prediction reports
-- Feature importance visualization
+- CSV-based batch predictions
+- Personalized learning recommendations based on input values
+- Academic performance visualizations
+- Machine Learning performance metrics
+- Feature importance analysis
+- Downloadable prediction results
 
-## 🧠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -24,98 +26,121 @@ EduPulse AI is a Python-based Data Science application that analyses student aca
 - Scikit-learn
 - Streamlit
 - Plotly
-- Matplotlib
 - Joblib
 
-## 🤖 Machine Learning
+## 🧠 Machine Learning Model
 
-Algorithm: Random Forest Regressor
+**Algorithm:** Random Forest Regressor
 
-Dataset: 1,000 simulated student records.
+The model uses five input features:
 
-Model evaluation:
-- Mean Absolute Error: 4.63
-- R² Score: 0.818
+1. Study Hours
+2. Attendance
+3. Previous Score
+4. Assignments Completed
+5. Sleep Hours
 
-These metrics are based on a simulated dataset and do not establish real-world predictive performance.
+### Model Evaluation
+
+| Metric | Result |
+|---|---:|
+| Mean Absolute Error (MAE) | 4.63 |
+| Root Mean Squared Error (RMSE) | 5.63 |
+| R² Score | 0.818 |
+
+Dataset:
+- Total records: 1,000
+- Training records: 800
+- Testing records: 200
+
+These metrics are based on a simulated dataset and should not be interpreted as real-world model accuracy.
 
 ## 📂 Project Structure
 
 ```text
 EDUPULSE_AI/
+│
 ├── app.py
 ├── train_model.py
 ├── requirements.txt
-├── data/
-├── models/
-├── screenshots/
 ├── README.md
-└── .gitignore
+├── .gitignore
+│
+├── data/
+│   ├── student_data.csv
+│   └── test_students.csv
+│
+└── models/
+    ├── student_model.pkl
+    └── model_metrics.json
 ```
 
-## ⚙️ Installation
+## 💻 Installation and Setup
 
-Clone the repository:
+### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/darshanbhagwat/EDUPULSE_AI.git
 ```
 
-Open the project:
+### 2. Open the project folder
 
 ```bash
-cd EduPulse-AI
+cd EDUPULSE_AI
 ```
 
-Create a virtual environment:
+### 3. Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-Activate it on Windows:
+### 4. Activate the environment (Windows PowerShell)
 
 ```powershell
 .\venv\Scripts\Activate.ps1
 ```
 
-Install dependencies:
+### 5. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Train the model:
+### 6. Train the Machine Learning model
 
 ```bash
 python train_model.py
 ```
 
-Run the application:
+### 7. Run the application
 
 ```bash
 streamlit run app.py
 ```
 
-## 📊 Dataset
+The dashboard will open in your browser.
 
-This project uses simulated student data for demonstration and experimentation.
+## 🔮 Future Improvements
 
-The model should not be used for real academic decisions without validation on representative real-world data.
+- Evaluate the model using suitable real-world datasets with appropriate permissions.
+- Improve model validation and generalization.
+- Add more explainable AI features.
+- Improve learning recommendations.
+- Explore additional Machine Learning algorithms.
 
-## 🎯 Project Objective
+## 👨‍💻 Developer
 
-To demonstrate how Data Science and Machine Learning can be used to explore educational data and support student learning insights.
-
-## 👨‍💻 Author
-
-Darshan Yogesh Bhagwat
+**Darshan Yogesh Bhagwat**
 
 First-Year B.Sc. Data Science Student
 
-Savitribai Phule Pune University
-Department of Technology
+Savitribai Phule Pune University, Department of Technology
 
-## 📌 Project Status
+GitHub: https://github.com/darshanbhagwat
 
-Hackathon Project Prototype
+LinkedIn: https://linkedin.com/in/darshan-bhagwat-891128431
+
+---
+
+⭐ Developed as an educational Data Science and Machine Learning prototype.
