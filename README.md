@@ -55,6 +55,17 @@ Dataset:
 
 These metrics are based on a simulated dataset and should not be interpreted as real-world model accuracy.
 
+## 📸 Project Screenshots
+
+### 1. Main Dashboard
+![EduPulse AI Dashboard](screenshots/dashboard.png)
+
+### 2. Model Performance
+![Model Performance](screenshots/model_performance.png)
+
+### 3. CSV Batch Prediction
+![CSV Batch Prediction](screenshots/batch_prediction.png)
+
 ## 📂 Project Structure
 
 ```text
