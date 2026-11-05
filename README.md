@@ -58,13 +58,16 @@ These metrics are based on a simulated dataset and should not be interpreted as 
 ## 📸 Project Screenshots
 
 ### 1. Main Dashboard
-![EduPulse AI Dashboard](screenshots/dashboard.png)
+![EduPulse AI Dashboard](<img width="1365" height="767" alt="dashboard png" src="https://github.com/user-attachments/assets/0e5680fc-19b5-4615-9c67-d20bb31e600b" />
+)
 
 ### 2. Model Performance
-![Model Performance](screenshots/model_performance.png)
+![Model Performance](<img width="1357" height="767" alt="model_performance png" src="https://github.com/user-attachments/assets/80c630a5-f07c-44b7-8b0b-86c7a7b387a0" />
+)
 
 ### 3. CSV Batch Prediction
-![CSV Batch Prediction](screenshots/batch_prediction.png)
+![CSV Batch Prediction](<img width="1365" height="767" alt="batch_prediction png" src="https://github.com/user-attachments/assets/74d59670-655f-4c47-8cad-b649ffce969c" />
+)
 
 ## 📂 Project Structure
 
